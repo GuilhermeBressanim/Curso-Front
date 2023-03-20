@@ -1,5 +1,10 @@
 @import "../../../../styles/colors.module.scss";
 
+.link {
+    text-decoration: none;
+    color: $lightGray;
+}
+
 .slide {
     width: 280px;
     height: 308px;

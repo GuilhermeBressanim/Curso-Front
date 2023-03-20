@@ -1,6 +1,6 @@
 @import "../../../styles/colors.module.scss";
 
-.searchLink {
+.link {
     text-decoration: none;
     color: $lightGray;
 }
@@ -47,4 +47,19 @@
         font-size: 15px;
     }
 
+}
+
+@media (max-width: 330px) {
+    .searchCard {
+        width: 275px;
+        height: 295px;
+    }
+
+    .searchCardTitle {
+        font-size: 12px;
+    }
+
+    .searchCardDescription {
+        font-size: 12px;
+    }
 }

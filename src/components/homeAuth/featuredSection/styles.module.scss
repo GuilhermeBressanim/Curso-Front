@@ -1,5 +1,11 @@
 @import "../../../../styles/colors.module.scss";
 
+.link {
+    text-decoration: none;
+    color: $lightGray;
+}
+
+
 .title {
     font-size: 50px;
     font-weight: bold;

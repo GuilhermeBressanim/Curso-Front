@@ -1,5 +1,10 @@
 @import "../../../../styles/colors.module.scss";
 
+.link {
+    text-decoration: none;
+    color: $lightGray;
+}
+
 .imgLogoNav {
     width: 160px;
     cursor: pointer;
