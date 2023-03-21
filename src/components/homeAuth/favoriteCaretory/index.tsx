@@ -5,7 +5,7 @@ import SlideComponent from "../../common/slideComponent"
 import PageSpinner from "../../common/spinner"
 
 const FavoriteCategory = function () {
-    const { data, error } = useSWR("/newest", courseService.getNewestCourses)
+    const { data, error } = useSWR("/favorites", courseService.getFavCourses)
 
     if (error) return error
     if (!data) {
